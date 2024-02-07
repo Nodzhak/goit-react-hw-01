@@ -1,31 +1,31 @@
 import PropTypes from 'prop-types';
-import styles from './profile.css';
+import './profile.css'; 
 
 const Profile = ({ username, tag, location, avatar, stats }) => (
-  <div className={styles.profile}>
-    <div className={styles.description}>
+  <div className="profile">
+    <div className="description">
       <img
         src={avatar}
         alt="User avatar"
-        className={styles.avatar}
+        className="avatar"
       />
-      <p className={styles.name}>{username}</p>
-      <p className={styles.tag}>@{tag}</p>
-      <p className={styles.location}>{location}</p>
+      <p className="name">{username}</p>
+      <p className="tag">@{tag}</p>
+      <p className="location">{location}</p>
     </div>
 
-    <ul className={styles.stats}>
+    <ul className="stats">
       <li>
-        <span className={styles.label}>Followers</span>
-        <span className={styles.value}>{stats.followers}</span>
+        <span className="label">Followers</span>
+        <span className="value">{stats.followers}</span>
       </li>
       <li>
-        <span className={styles.label}>Views</span>
-        <span className={styles.value}>{stats.views}</span>
+        <span className="label">Views</span>
+        <span className="value">{stats.views}</span>
       </li>
       <li>
-        <span className={styles.label}>Likes</span>
-        <span className={styles.value}>{stats.likes}</span>
+        <span className="label">Likes</span>
+        <span className="value">{stats.likes}</span>
       </li>
     </ul>
   </div>

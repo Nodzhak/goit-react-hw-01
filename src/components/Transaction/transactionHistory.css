@@ -1,0 +1,24 @@
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transaction-header {
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+    border-right: 1px solid #ddd;
+    background-color: #171616;
+    color: #f8f5f5;
+  }
+  
+  .transaction-row:nth-child(even) {
+    background-color: #948484;
+    color: #f8f5f5;
+  }
+  
+  .transaction-cell {
+    padding: 12px;
+    border: 1px solid #ddd; 
+  }
+  

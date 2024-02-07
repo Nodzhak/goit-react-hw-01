@@ -1,0 +1,39 @@
+.friend-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .friend-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+  }
+  
+  .friend-item.online {
+    border-color: green;
+  }
+  
+  .friend-item.offline {
+    border-color: red;
+  }
+  
+  .friend-name {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .friend-status {
+    margin: 0;
+  }
+  
+  .friend-status.online {
+    color: green;
+  }
+  
+  .friend-status.offline {
+    color: red;
+  }
