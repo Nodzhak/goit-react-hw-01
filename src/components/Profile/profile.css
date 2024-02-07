@@ -16,8 +16,8 @@
   width: 100px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 25px;
   border-radius: 50%;
+  background-color: #2b4866;
 }
 
 .name {
