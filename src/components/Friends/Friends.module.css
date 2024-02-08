@@ -1,11 +1,11 @@
-.friend-list {
+.friendList {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     padding: 0;
   }
   
-  .friend-item {
+  .friendItem {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
@@ -13,27 +13,27 @@
     display: inline-block;
   }
   
-  .friend-item.online {
+  .friendItem.online {
     border-color: green;
   }
   
-  .friend-item.offline {
+  .friendItem.offline {
     border-color: red;
   }
   
-  .friend-name {
+  .friendName {
     margin: 0;
     font-weight: bold;
   }
   
-  .friend-status {
+  .friendStatus {
     margin: 0;
   }
   
-  .friend-status.online {
+  .friendStatus.online {
     color: green;
   }
   
-  .friend-status.offline {
+  .friendStatus.offline {
     color: red;
   }

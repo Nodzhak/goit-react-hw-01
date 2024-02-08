@@ -1,9 +1,9 @@
-.transaction-table {
+.transactionTable {
     width: 100%;
     border-collapse: collapse;
   }
   
-  .transaction-header {
+  .transactionHeader {
     font-weight: bold;
     text-align: center;
     padding: 12px;
@@ -12,12 +12,12 @@
     color: #f8f5f5;
   }
   
-  .transaction-row:nth-child(even) {
+  .transactionRow:nth-child(even) {
     background-color: #948484;
     color: #f8f5f5;
   }
   
-  .transaction-cell {
+  .transactionCell {
     padding: 12px;
     border: 1px solid #ddd; 
   }
